@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>AI OS Test</h2>
+
+<input id="input" placeholder="Nhập gì đó...">
+<button onclick="run()">Chạy</button>
+
+<p id="out"></p>
+
+<script>
+function run() {
+  let v = document.getElementById("input").value;
+  document.getElementById("out").innerText = "Bạn nhập: " + v;
+}
+</script>
+
+</body>
+</html>
